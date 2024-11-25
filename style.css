@@ -100,6 +100,25 @@ table th {
     border-radius: 5px;
 }
 
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna biru untuk tombol */
+    color: white; /* Teks tombol berwarna putih */
+    text-decoration: none; /* Menghapus garis bawah pada link */
+    font-size: 1em; /* Ukuran font */
+    font-weight: bold; /* Membuat teks bold */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Warna tombol saat hover */
+    transform: scale(1.05); /* Sedikit membesarkan tombol saat hover */
+}
+
 /* Gaya untuk footer */
 .footer p {
     margin: 0;
